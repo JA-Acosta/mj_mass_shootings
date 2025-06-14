@@ -1,0 +1,27 @@
+Column,DataType,Description
+case,object,Unique case name
+location,object,City and State incident took place
+date,datetime64[ns],Incident Date
+summary,object,Summary description of the incident
+fatalities,int64,Number of fatalities in incident
+injured,int64,Number of injured victims
+total_victims,int64,Total victims (fatalities + injured)
+place,object,Specific place or venue of incident
+age_of_shooter,object,Age of the shooter
+prior_signs_mental_health_issues,object,Shooter mental health record prior to
+mental_health_details,object,Details regarding mental health status
+weapons_obtained_legally,object,Whether weapons were legally obtained
+where_obtained,object,Where weapons were obtained
+weapon_type,object,Type(s) of weapons used
+weapon_details,object,Additional details about weapons
+race,object,Race of the shooter
+gender,object,Gender of the shooter
+sources,object,Source references for incident information
+mental_health_sources,object,Sources related to mental health information
+sources_additional_age,object,Additional sources or notes regarding age
+latitude,object,Latitude coordinate of incident location
+longitude,object,Longitude coordinate of incident location
+type,object,Type/category of incident
+city,object,City where incident occurred
+state,object,State where incident occurred
+where_obtained_category,object,Categorized location where weapons were obtained
